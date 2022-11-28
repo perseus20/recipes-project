@@ -1,0 +1,47 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.25rem;
+  background-color: #e3bdba;
+}
+
+img {
+  display: block;
+}
+
+/* Style */
+
+.fig-img {
+  width: 300px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.title {
+  background-color: #de4c3f;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 2.5rem;
+}
+
+.caption {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.35rem;
+}
