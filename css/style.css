@@ -73,4 +73,5 @@ img {
 .footer a {
   color: whitesmoke;
   text-decoration: none;
+  display: block;
 }
